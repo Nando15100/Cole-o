@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const NOME_DA_COLECAO_PRIMEIRA_LETRA_MAIUSCULASchema = new mongoose.Schema({
+const NOME_DA_COLECAO_PRIMEIRA_LETRA_MINUSCULASchema = new mongoose.Schema({
   customId: {
     type: Number,
     unique: true,
